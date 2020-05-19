@@ -28,10 +28,9 @@ If you are interested with this project and would like to discuss its details, p
 3. Execiutive Summary
 
 4. More Informations
-
-    Most important steps from Data Cleaning and Preparing
-
-    Most important steps from Modelling
+        Most important steps from Data Cleaning and Preparing
+        
+        Most important steps from Modelling
 
 5. Limitations andd Future Works
 
