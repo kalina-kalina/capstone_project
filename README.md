@@ -23,9 +23,10 @@ If you are interested with this project and would like to discuss details, pleas
 
 
 The dataset, what I worked on, includes the informations scraped off of the fragrantica.com website.
+
 I took it from [https://www.kaggle.com/sagikeren88/fragrances-and-perfumes]() as a ready-to-use csv file.
 
-I spit my code into separated notebooks to keep is as clear and readable as possible.
+My code is split into separated notebooks to keep is as clear and readable as possible.
 
 1. Data cleaning and Preparation 
 * the biggest issue - a correct understanding the data and the way it was collected
