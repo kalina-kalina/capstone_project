@@ -94,7 +94,7 @@ Each bottle of fragrance is described of several parameters (according columns o
 Voting for a perfume it's not required to mark each aspect. It brings an inbalance in ratings (an amount of grades for each column don't have to be correlated with a general amout of votes).
 
 
-##Most important steps from Data Cleaning and Preparing:
+## Most important steps from Data Cleaning and Preparing:
 
 1. Small amount of votes
 
@@ -113,7 +113,16 @@ Because of an imbalance in ratings, these two features were difficult to underst
 
 Here also, because of an imbalance in ratings, season's features were difficult to ccompare. I decided to present them as a ratio of an amount of votes for specific season to sum of votes for all seasons.
 
-##Most important steps from Modelling:
+## Most important steps from Modelling:
+
+1. Data scaling
+
+Not every feature from the dataset had the same range of values. I scaled three of them: 'votes', 'longevity' and 'sillage' using MinMaxScaler from Scikit-learn library. 
+
+2. Checking a multicolinearity
+
+There was a multicolinearity between season's and gender's variables. It could mean that users voting for winter, voted for autumn as well. And voting for summer, voted for spring as well. After removing 'autumn' and 'spring', there are no issues with multicolinearity between this group of variables. I decided to leave variables easier to understand- now seasons is split between hot(summer) and cold(winter).
+The same situation was with gender_man and gender_unisex. After removing gender_unisex, there is no no issues with multicolinearity
 
 
 
