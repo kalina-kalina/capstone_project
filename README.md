@@ -8,6 +8,8 @@ Basing on the data from fragrantica.com - a popular internet portal for fragranc
 
 Utilising this kind of prediction, can help to create better communication between manufactures, sellers and customers. 
 
+***
+
 If you are interested with this project and would like to discuss details, please contact me directly on the following:
 * [kalina.zeligowska@gmail.com]()
 
