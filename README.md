@@ -35,7 +35,7 @@ If you are interested with this project and would like to discuss its details, p
 
 * Most important steps from Modelling
 
-5. <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/README.md#4-more-information" target="_blank">Limitations and Future Works</a>
+5. <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/README.md#5-limitations-andd-future-works" target="_blank">Limitations and Future Works</a>
 
 ***
 
