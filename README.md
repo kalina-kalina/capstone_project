@@ -41,7 +41,8 @@ My code is split into separated notebooks to keep is as clear and readable as 
 
 2. <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/02%20-%20Modelling.ipynb" target="_blank">Modelling</a>
 
-*
+* ujednolicenie skal zmiennych
+* checking a multicolinearity and deciding which of higly correlated variables remove
 
 
 
