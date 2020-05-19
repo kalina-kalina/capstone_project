@@ -22,11 +22,9 @@ If you are interested with this project and would like to discuss details, pleas
 ### Executive Summary
 
 
-Start with one or two sentences here that contextualises what your project matters here.
-These two sentences will demonstrate your business understanding. 
+The dataset, what I worked on, includes the informations scraped off of the fragrantica.com website. At the beginning, the biggest issue was a correct understanding the data and the way it was collected. 
 
-Next, in a second paragraph, write how you were able to make a data science operationalization of the problem.
-For example, you might say that in order to help solve this problem you set out to build a classification ML model in order to automate some process. 
+I spit my code into separated notebooks to keep is as clear and readable as possible.
 
 Third, you then write what you did on the project that is a bit more technical.
 Here you might say that you took data from [here and make it a link to the original data]() and then ran `a list of models you ran here` in your analysis.
