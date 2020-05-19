@@ -28,6 +28,9 @@ If you are interested with this project and would like to discuss its details, p
 3. Execiutive Summary
 
 4. More Informations
+
+* How does the Rating System work
+
 * Most important steps from Data Cleaning and Preparing
 
 * Most important steps from Modelling
@@ -80,7 +83,7 @@ My code is split into separated notebooks to keep is as clear and readable as 
 
 ### 4. More Information
 
-# How does the rating system work:
+### How does the rating system work:
 
 Each bottle of fragrance is described of several parameters (according columns of the dataset):
 * basic information such as: title, brand, year of (wprowadzenia na rynek)
@@ -106,7 +109,7 @@ Each bottle of fragrance is described of several parameters (according columns o
 Voting for a perfume it's not required to mark each aspect. It brings an inbalance in ratings (an amount of grades for each column don't have to be correlated with a general amout of votes).
 
 
-# Most important steps from Data Cleaning and Preparing:
+### Most important steps from Data Cleaning and Preparing:
 
 1. Small amount of votes
 
@@ -127,7 +130,7 @@ Because of an imbalance in ratings, these two features were difficult to underst
 
 Here also, because of an imbalance in ratings, season's features were difficult to ccompare. I decided to present them as a ratio of an amount of votes for specific season to sum of votes for all seasons.
 
-# Most important steps from Modelling:
+### Most important steps from Modelling:
 
 1. Data scaling
 
