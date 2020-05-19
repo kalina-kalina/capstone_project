@@ -39,7 +39,8 @@ My code is split into separated notebooks to keep is as clear and readable as 
 * zdecydowanie które kolumny są istotne
 * zmienna accords - very messy
 
-2. Modelling
+2. <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/02%20-%20Modelling.ipynb" target="_blank">Modelling</a>
+
 *
 
 
