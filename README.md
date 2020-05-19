@@ -49,7 +49,7 @@ My code is split into separated notebooks to keep is as clear and readable as 
 * spliting the data to prepare if for moddeling
 * linear regrassion model
 
-3. CDN
+3. "TO BE CONTINUATED"
 
 *** 
 
