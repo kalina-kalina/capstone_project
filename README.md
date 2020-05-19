@@ -100,4 +100,4 @@ Write documentation that looks like someone you would want to work with.
 
 ![Everyone Likes a Pairplot](figures/seaborn-pairplot-3.png)
 
-> Image taken from `seaborn` [documentation](https://seaborn.pydata.org/generated/seaborn.pairplot.html)
+> Image taken from [fragrantica.com](https://www.fragrantica.com/perfume/Chlo-/Love-Story-26227.htmll)
