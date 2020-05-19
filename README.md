@@ -10,7 +10,7 @@ The aim of this project was to create a statisctical model making predictions on
 
 I based on the data from fragrantica.com - a popular internet portal for fragrance's lovers. Exploring users preferences and interests alowed me to get a deep understanding of the perfumes rating system.
 
-Utilising this kind of prediction, can help to create better communication between manufactures, sellers/dealers (?) and customers, especially those who exist on the online market. (?)
+Utilising this kind of prediction, can help to create better communication between manufactures, sellers/dealers and customers, especially those who exist on the online market.
 
 ***
 
@@ -65,32 +65,28 @@ If you are interested with this project and would like to discuss its details, p
 ### 3. Executive Summary
 
 
-The dataset, what I worked on, includes the informations scraped off of the fragrantica.com website.
+The dataset, what I worked on, includes the informations scraped off the fragrantica.com website.
 
-Fragrantica.com is a portal for perfume lovers. Is has three main fillars - an catalogue, an independent magazine and a community - users who comment, disscuse and assess perfumes.
-Each bottle of fragrance JAK JEST OCENIANA
+Fragrantica.com is a portal for perfume lovers. Is consists of three main segments - a catalogue of perfumes, an independent magazine on this subject and a community - users who comment, disscuse and assess perfumes.
 
 I took the dataset from <a href="https://www.kaggle.com/sagikeren88/fragrances-and-perfumes" target="_blank">kaggle.com</a> as a ready-to-use csv file.
 
 My code is split into separated notebooks to keep is as clear and readable as possible.
 
-(tu są kolejne pliki i główne punkty)
-
+My project's steps:
 
 1. Data cleaning and preparing: <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/01%20-%20Data%20cleaning%20and%20preparation.ipynb" target="_blank">notebook</a>
 
-* the biggest issue - a correct understanding the data and the way it was collected
-* doprowadzić do ujednoliconego typu
-* poradzenie sobie z danymi które zakłócały arkusz - mała ilość głosów
-* zdecydowanie które kolumny są istotne
-* zmienna accords - very messy
+The biggest issues:
+* correct understanding the data and the way it was collected
+* unifying all variables
+* deciding which variables are valuable
 
 2. Modelling: <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/02%20-%20Modelling.ipynb" target="_blank">notebook</a>
 
-* ujednolicenie skal zmiennych
-* checking a multicolinearity and deciding which of higly correlated variables remove
-* spliting the data to prepare if for moddeling
-* linear regrassion model
+The biggest issues:
+* checking a multicolinearity
+* models understanding 
 
 3. "TO BE CONTINUATED"
 
@@ -100,8 +96,8 @@ My code is split into separated notebooks to keep is as clear and readable as 
 
 ### How does the rating system work:
 
-Each bottle of fragrance is described of several parameters (according columns of the dataset):
-* basic information such as: title, brand, year of (wprowadzenia na rynek)
+Each bottle of fragrance is described by several parameters (according columns of the dataset):
+* basic information: title, brand, year of market launch
 * accords - main elements/ingredients of a fragrance
 
 > Accords for perfumes are the same as ingredients for meals, colours for paintings or notes/sounds for music. 
@@ -121,7 +117,7 @@ Each bottle of fragrance is described of several parameters (according columns o
 
 > Images taken from [fragrantica.com](https://www.fragrantica.com/perfume/Chlo-/Love-Story-26227.htmll)
 
-Voting for a perfume it's not required to mark each aspect. It brings an inbalance in ratings (an amount of grades for each column don't have to be correlated with a general amout of votes).
+Voting for a perfume, it's not required to mark each aspect. Unfortunatelly, it brings an inbalance in ratings (an amount of grades for each column do not have to be correlated with a general amout of votes).
 
 
 ### Most important steps from Data Cleaning and Preparing:
