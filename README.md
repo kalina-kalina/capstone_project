@@ -22,9 +22,24 @@ If you are interested with this project and would like to discuss details, pleas
 ### Executive Summary
 
 
-The dataset, what I worked on, includes the informations scraped off of the fragrantica.com website. At the beginning, the biggest issue was a correct understanding the data and the way it was collected. 
+The dataset, what I worked on, includes the informations scraped off of the fragrantica.com website.
+I took it from [https://www.kaggle.com/sagikeren88/fragrances-and-perfumes]() as a ready-to-use csv file.
 
 I spit my code into separated notebooks to keep is as clear and readable as possible.
+
+1. Data cleaning and Preparation 
+* the biggest issue - a correct understanding the data and the way it was collected
+* doprowadzić do ujednoliconego typu
+* poradzenie sobie z danymi które zakłócały arkusz - mała ilość głosów
+* zdecydowanie które kolumny są istotne
+* zmienna accords - very messy
+
+
+
+
+
+
+*** 
 
 Third, you then write what you did on the project that is a bit more technical.
 Here you might say that you took data from [here and make it a link to the original data]() and then ran `a list of models you ran here` in your analysis.
