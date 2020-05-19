@@ -2,9 +2,11 @@
 
 ## Perfume Ratings
 
+The aim of this project was to create a model making predictions on perfumes ratings.
 
-This model predicts the value of rating score for perfumes.
-Utilising this kind of predictions, can help to create better communication between manufactures, sellers and customers. 
+Basing on the data from fragrantica.com - a popular internet portal for fragrance's lovers, I explored users preferences and interests.
+
+Utilising this kind of prediction, can help to create better communication between manufactures, sellers and customers. 
 
 If you are interested with this project and would like to discuss details, please contact me directly on the following:
 * [kalina.zeligowska@gmail.com]()
