@@ -6,7 +6,7 @@
 
 ***
 
-The aim of this project was to create a model statisctical making predictions on perfumes ratings.
+The aim of this project was to create a statisctical model making predictions on perfumes ratings.
 
 I based on the data from fragrantica.com - a popular internet portal for fragrance's lovers. Exploring users preferences and interests alowed me to get a deep understanding of the perfumes rating system.
 
