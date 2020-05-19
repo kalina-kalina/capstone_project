@@ -27,7 +27,7 @@ If you are interested with this project and would like to discuss its details, p
 
 3. <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/README.md#3-executive-summary" target="_blank">Execiutive Summary</a>
 
-4. More Informations
+4. <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/README.md#4-more-information" target="_blank">More Informations</a>
 
 * How does the Rating System work
 
@@ -35,7 +35,7 @@ If you are interested with this project and would like to discuss its details, p
 
 * Most important steps from Modelling
 
-5. Limitations andd Future Works
+5. <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/README.md#4-more-information" target="_blank">Limitations and Future Works</a>
 
 ***
 
