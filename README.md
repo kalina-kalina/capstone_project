@@ -14,7 +14,7 @@ Utilising this kind of prediction, can help to create better communication betwe
 
 ***
 
-If you are interested with this project and would like to discuss details, please contact me directly on the following:
+If you are interested with this project and would like to discuss its details, please contact me directly on the following:
 * [kalina.zeligowska@gmail.com]()
 
 *** 
