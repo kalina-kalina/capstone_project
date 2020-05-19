@@ -19,7 +19,22 @@ If you are interested with this project and would like to discuss its details, p
 
 *** 
 
-### Executive Summary
+## Table of Contents
+
+1. File descriptions
+
+2. Technologies Used
+
+3. Execiutive Summary
+
+4. More Informations
+4.1. Most important steps from Data Cleaning and Preparing
+4.2. Most important steps from Modelling
+
+5. Limitations andd Future Works
+
+
+### 3. Executive Summary
 
 
 The dataset, what I worked on, includes the informations scraped off of the fragrantica.com website.
@@ -53,22 +68,7 @@ My code is split into separated notebooks to keep is as clear and readable as 
 
 *** 
 
-Third, you then write what you did on the project that is a bit more technical.
-Here you might say that you took data from [here and make it a link to the original data]() and then ran `a list of models you ran here` in your analysis.
-Then end with one sentence that picks what your best model was and how it performed.
-
-Lastly, you say in one or two sentences why this matters. 
-For example, now as opposed to before this data analysis, you can now predict X better than Y. 
-
-The goal of this project was to create a `regression/classification` model that was able to predict `what you set out to do`.
-
-> If you are able to swap out the text here with what your case example is you will demonstrate the following:
-> 1. You get why what you're doing 'matters'
-> 2. You are able to take ill defined problems and turn them into something a data scienst can solve
-> 3. You show off your analystical and modeling chops.
-> 4. You are able to communicate technical things you do.
-
-### More Information
+### 4. More Information
 
 Each bottle of fragrance is described of several parameters (according columns of the dataset):
 * basic information such as: title, brand, year of (wprowadzenia na rynek)
@@ -125,6 +125,8 @@ Not every feature from the dataset had the same range of values. I scaled three 
 
 There was a multicolinearity between season's and gender's variables. It could mean that users voting for winter, voted for autumn as well. And voting for summer, voted for spring as well. After removing 'autumn' and 'spring', there are no issues with multicolinearity between this group of variables. I decided to leave variables easier to understand- now seasons is split between hot(summer) and cold(winter).
 The same situation was with gender_man and gender_unisex. After removing gender_unisex, there is no no issues with multicolinearity
+
+### 5. Limitations andd Future Works
 
 
 
