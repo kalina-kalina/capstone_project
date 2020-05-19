@@ -53,6 +53,13 @@ If you are interested with this project and would like to discuss its details, p
 
 ### 2. Technologies Used
 
+* Python
+* Pandas
+* Seaborn
+* Matplotlib
+* Numpy
+* Scikit-learn
+
 ***
 
 ### 3. Executive Summary
