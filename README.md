@@ -70,6 +70,20 @@ The goal of this project was to create a `regression/classification` model that 
 
 ### More Information
 
+Each bottle of fragrance is described of several parameters (according columns of the dataset):
+* basic information such as: title, brand, year of (wprowadzenia na rynek)
+* accords - main elements/ingredients of a fragrance
+
+Accords for perfumes are the same as ingredients for meals, colours for paintings or notes/sounds for music. Top 10 most common accords: 
+woody, citrus, floral, sweet, aromatic, fresh spicy, fruity, white floral, balsamic, powdery, green, warm spicy, musky, vanilla, rose.
+
+* rating_score - mean value of users votes
+* votes - the number of votes submitted by users
+* perfume's longevity: poor, weak, moderate, long or very long
+* perfume's sillage: soft, moderate, heavy or enormous
+* user's preferences (also split into sex and age categories): love/like/dislike, for winter, spring, summer or autumn, cold or hot day, day or night, have/had/want- more details about accords
+* target group: women, man or unisex 
+
 Below your Executive Summary, you can document whatever you feel would be of interest to a future employer.
 Here I would especially suggest diving a bit deeper into your methodology and including images that you are proud of from the project. 
 Remember, that people will probably judge your github project page within 45 seconds tops, you want it to look as clean as possible. 
