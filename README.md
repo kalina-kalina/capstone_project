@@ -23,7 +23,7 @@ If you are interested with this project and would like to discuss its details, p
 
 1. <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/README.md#1-file-descriptions" target="_blank">File descriptions</a>
 
-2. Technologies Used
+2. <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/README.md#2-technologies-used" target="_blank">Technologies Used</a>
 
 3. Execiutive Summary
 
