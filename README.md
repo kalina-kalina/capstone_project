@@ -87,6 +87,9 @@ Each bottle of fragrance is described of several parameters (according columns o
 * user's preferences (also split into sex and age categories): love/like/dislike, for winter, spring, summer or autumn, cold or hot day, day or night, have/had/want- more details about accords
 * target group: women, man or unisex 
 
+![Everyone Likes a Pairplot](figures/from_web.png)
+
+
 Below your Executive Summary, you can document whatever you feel would be of interest to a future employer.
 Here I would especially suggest diving a bit deeper into your methodology and including images that you are proud of from the project. 
 Remember, that people will probably judge your github project page within 45 seconds tops, you want it to look as clean as possible. 
