@@ -28,15 +28,18 @@ I took it from [https://www.kaggle.com/sagikeren88/fragrances-and-perfumes]() as
 
 My code is split into separated notebooks to keep is as clear and readable as possible.
 
-1. Data cleaning and Preparation 
+(tu są kolejne pliki i trudnosci które napotakłam)
+
+
+1. Data cleaning and preparing 
 * the biggest issue - a correct understanding the data and the way it was collected
 * doprowadzić do ujednoliconego typu
 * poradzenie sobie z danymi które zakłócały arkusz - mała ilość głosów
 * zdecydowanie które kolumny są istotne
 * zmienna accords - very messy
 
-
-
+2. Modelling
+*
 
 
 
