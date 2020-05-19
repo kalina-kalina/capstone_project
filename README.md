@@ -28,15 +28,21 @@ If you are interested with this project and would like to discuss its details, p
 3. Execiutive Summary
 
 4. More Informations
-  
-  Most important steps from Data Cleaning and Preparing
-  
-  Most important steps from Modelling
+* Most important steps from Data Cleaning and Preparing
+
+* Most important steps from Modelling
 
 5. Limitations andd Future Works
 
 ***
 
+### 1. File descriptions
+
+***
+
+### 2. Technologies Used
+
+***
 
 ### 3. Executive Summary
 
@@ -73,6 +79,8 @@ My code is split into separated notebooks to keep is as clear and readable as 
 *** 
 
 ### 4. More Information
+
+# How does the rating system work:
 
 Each bottle of fragrance is described of several parameters (according columns of the dataset):
 * basic information such as: title, brand, year of (wprowadzenia na rynek)
@@ -128,7 +136,9 @@ Not every feature from the dataset had the same range of values. I scaled three 
 2. Checking a multicolinearity
 
 There was a multicolinearity between season's and gender's variables. It could mean that users voting for winter, voted for autumn as well. And voting for summer, voted for spring as well. After removing 'autumn' and 'spring', there are no issues with multicolinearity between this group of variables. I decided to leave variables easier to understand- now seasons is split between hot(summer) and cold(winter).
-The same situation was with gender_man and gender_unisex. After removing gender_unisex, there is no no issues with multicolinearity
+The same situation was with gender_man and gender_unisex. After removing gender_unisex, there is no no issues with multicolinearity.
+
+***
 
 ### 5. Limitations andd Future Works
 
