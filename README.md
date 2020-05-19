@@ -21,7 +21,7 @@ If you are interested with this project and would like to discuss its details, p
 
 ## Table of Contents
 
-1. File descriptions
+1. <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/README.md#1-file-descriptions" target="_blank">File descriptions</a>
 
 2. Technologies Used
 
