@@ -89,4 +89,25 @@ Each bottle of fragrance is described of several parameters (according columns o
 
 ![](figures/from_web.png)
 
-> Image taken from [fragrantica.com](https://www.fragrantica.com/perfume/Chlo-/Love-Story-26227.htmll)
+> Images taken from [fragrantica.com](https://www.fragrantica.com/perfume/Chlo-/Love-Story-26227.htmll)
+
+Voting for a perfume it's not required to mark each aspect. It brings an inbalance in ratings (an amount of grades for each column don't have to be correlated with a general amout of votes).
+
+
+Most important steps from Data Cleaning and Preparing:
+
+1. Small amount of votes
+
+Going through the data exploring, it emerged that distribiuton of 'rating_score' variable is disrupted by products with a
+low amout of votes. The less votes, the more likely the value of 'rating_score' is the integer number. After removing perfumes with less than 20 votes, distribiution improved.
+
+2. Messy 'accords' column. 
+
+In each cell of this column was a set of accords labels, interrupted by labels such as 'Videos' and 'Pictures' (these two labels are the result of web scrapping). I decided to split all of them into separeted columns, remove worthless labels, create new columns for each of the accords and fill them with 0 (when a perfume doesn't have this accord) and 1 (when a perfume has this accord).
+
+3. Longevity and Sillage
+
+Because of an imbalance in ratings, these two features were difficult to underdtand. I 
+
+
+
