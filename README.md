@@ -2,6 +2,8 @@
 
 ## Perfume Ratings
 
+*Worked by Kalina Zeligowska Serej*
+
 The aim of this project was to create a model making predictions on perfumes ratings.
 
 Basing on the data from fragrantica.com - a popular internet portal for fragrance's lovers, I explored users preferences and interests.
