@@ -24,7 +24,10 @@ If you are interested with this project and would like to discuss its details, p
 
 The dataset, what I worked on, includes the informations scraped off of the fragrantica.com website.
 
-I took it from <a href="https://www.kaggle.com/sagikeren88/fragrances-and-perfumes" target="_blank">kaggle.com</a> as a ready-to-use csv file.
+Fragrantica.com is a portal for perfume lovers. Is has three main fillars - an catalogue, an independent magazine and a community - users who comment, disscuse and assess perfumes.
+Each bottle of fragrance JAK JEST OCENIANA
+
+I took the dataset from <a href="https://www.kaggle.com/sagikeren88/fragrances-and-perfumes" target="_blank">kaggle.com</a> as a ready-to-use csv file.
 
 My code is split into separated notebooks to keep is as clear and readable as possible.
 
