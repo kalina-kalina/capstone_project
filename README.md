@@ -75,9 +75,9 @@ Each bottle of fragrance is described of several parameters (according columns o
 * accords - main elements/ingredients of a fragrance
 
 > Accords for perfumes are the same as ingredients for meals, colours for paintings or notes/sounds for music. 
-
+>
 > Top 10 most common accords: 
-
+>
 > woody, citrus, floral, sweet, aromatic, fresh spicy, fruity, white floral, balsamic, powdery, green, warm spicy, musky, vanilla, rose.
 
 * rating_score - mean value of users votes
