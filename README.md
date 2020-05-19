@@ -28,7 +28,7 @@ I took it from <a href="https://www.kaggle.com/sagikeren88/fragrances-and-perfum
 
 My code is split into separated notebooks to keep is as clear and readable as possible.
 
-(tu są kolejne pliki i trudnosci które napotakłam)
+(tu są kolejne pliki i główne punkty)
 
 
 1. <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/01%20-%20Data%20cleaning%20and%20preparation.ipynb" target="_blank">Data cleaning and preparing</a>
@@ -43,8 +43,10 @@ My code is split into separated notebooks to keep is as clear and readable as 
 
 * ujednolicenie skal zmiennych
 * checking a multicolinearity and deciding which of higly correlated variables remove
+* spliting the data to prepare if for moddeling
+* linear regrassion model
 
-
+3. CDN
 
 *** 
 
@@ -76,7 +78,3 @@ Write documentation that looks like someone you would want to work with.
 ![Everyone Likes a Pairplot](figures/seaborn-pairplot-3.png)
 
 > Image taken from `seaborn` [documentation](https://seaborn.pydata.org/generated/seaborn.pairplot.html)
-
-**DO NOT PUT THE GOOD BITS OF YOUR PROJECT BURRIED AWAY AT THE BOTTOM OF YOUR README, YOU ARE NOT WRITING A DETECTIVE NOVEL**
-
-
