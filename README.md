@@ -70,7 +70,7 @@ My code is split into separated notebooks to keep is as clear and readable as 
 (tu są kolejne pliki i główne punkty)
 
 
-1. <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/01%20-%20Data%20cleaning%20and%20preparation.ipynb" target="_blank">Data cleaning and preparing</a>
+1. Data cleaning and preparing: <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/01%20-%20Data%20cleaning%20and%20preparation.ipynb" target="_blank">notebook</a>
 
 * the biggest issue - a correct understanding the data and the way it was collected
 * doprowadzić do ujednoliconego typu
@@ -78,7 +78,7 @@ My code is split into separated notebooks to keep is as clear and readable as 
 * zdecydowanie które kolumny są istotne
 * zmienna accords - very messy
 
-2. <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/02%20-%20Modelling.ipynb" target="_blank">Modelling</a>
+2. Modelling: <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/02%20-%20Modelling.ipynb" target="_blank">notebook</a>
 
 * ujednolicenie skal zmiennych
 * checking a multicolinearity and deciding which of higly correlated variables remove
