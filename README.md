@@ -31,7 +31,8 @@ My code is split into separated notebooks to keep is as clear and readable as 
 (tu są kolejne pliki i trudnosci które napotakłam)
 
 
-1. Data cleaning and preparing 
+1. <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/01%20-%20Data%20cleaning%20and%20preparation.ipynb" target="_blank">Data cleaning and preparing</a>
+
 * the biggest issue - a correct understanding the data and the way it was collected
 * doprowadzić do ujednoliconego typu
 * poradzenie sobie z danymi które zakłócały arkusz - mała ilość głosów
