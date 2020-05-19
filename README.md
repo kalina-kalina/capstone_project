@@ -94,7 +94,7 @@ Each bottle of fragrance is described of several parameters (according columns o
 Voting for a perfume it's not required to mark each aspect. It brings an inbalance in ratings (an amount of grades for each column don't have to be correlated with a general amout of votes).
 
 
-Most important steps from Data Cleaning and Preparing:
+##Most important steps from Data Cleaning and Preparing:
 
 1. Small amount of votes
 
@@ -107,7 +107,15 @@ In each cell of this column was a set of accords labels, interrupted by labels s
 
 3. Longevity and Sillage
 
-Because of an imbalance in ratings, these two features were difficult to underdtand. I 
+Because of an imbalance in ratings, these two features were difficult to understand. I counted weighted aritmetical mean for each of them to get them easier to compare.
+
+4. Season
+
+Here also, because of an imbalance in ratings, season's features were difficult to ccompare. I decided to present them as a ratio of an amount of votes for specific season to sum of votes for all seasons.
+
+##Most important steps from Modelling:
+
+
 
 
 
