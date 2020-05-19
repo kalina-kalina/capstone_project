@@ -8,13 +8,13 @@
 
 The aim of this project was to create a statisctical model making predictions on perfumes ratings.
 
-I based on the data from fragrantica.com - a popular internet portal for fragrance's lovers. Exploring users preferences and interests alowed me to get a deep understanding of the perfumes rating system.
+I used the data from fragrantica.com - a popular internet portal for fragrances' lovers. Exploring users preferences and interests alowed me to get a deep understanding of the perfumes rating system.
 
-Utilising this kind of prediction, can help to create better communication between manufactures, sellers/dealers and customers, especially those who exist on the online market.
+Utilising this kind of prediction, can help to create better communication between manufactures, sellers and customers, especially those who are present on the online market.
 
 ***
 
-If you are interested with this project and would like to discuss its details, please contact me directly on the following:
+If you are interested in this project and would like to discuss its details, please contact me directly at:
 * [kalina.zeligowska@gmail.com]()
 
 *** 
@@ -65,7 +65,7 @@ If you are interested with this project and would like to discuss its details, p
 ### 3. Executive Summary
 
 
-The dataset, what I worked on, includes the informations scraped off the fragrantica.com website.
+The dataset which I worked on includes information scraped off fragrantica.com.
 
 Fragrantica.com is a portal for perfume lovers. Is consists of three main segments - a catalogue of perfumes, an independent magazine on this subject and a community - users who comment, disscuse and assess perfumes.
 
@@ -73,22 +73,22 @@ I took the dataset from <a href="https://www.kaggle.com/sagikeren88/fragrances-a
 
 My code is split into separated notebooks to keep is as clear and readable as possible.
 
-My project's steps:
+The steps of my project are the following:
 
-1. Data cleaning and preparing: <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/01%20-%20Data%20cleaning%20and%20preparation.ipynb" target="_blank">notebook</a>
+1. Data cleaning: <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/01%20-%20Data%20cleaning%20and%20preparation.ipynb" target="_blank">notebook</a>
 
 The biggest issues:
-* correct understanding the data and the way it was collected
+* correctly understanding the data and the way it was collected
 * unifying all variables
 * deciding which variables are valuable
 
 2. Modelling: <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/02%20-%20Modelling.ipynb" target="_blank">notebook</a>
 
 The biggest issues:
-* checking a multicolinearity
+* checking multicolinearity
 * models understanding 
 
-3. "TO BE CONTINUATED"
+3. "TO BE CONTINUED"
 
 *** 
 
@@ -102,7 +102,7 @@ Each bottle of fragrance is described by several parameters (according columns o
 
 > Accords for perfumes are the same as ingredients for meals, colours for paintings or notes/sounds for music. 
 >
-> Top 10 most common accords: 
+> Top 15 most common accords: 
 >
 > woody, citrus, floral, sweet, aromatic, fresh spicy, fruity, white floral, balsamic, powdery, green, warm spicy, musky, vanilla, rose.
 
@@ -117,44 +117,44 @@ Each bottle of fragrance is described by several parameters (according columns o
 
 > Images taken from [fragrantica.com](https://www.fragrantica.com/perfume/Chlo-/Love-Story-26227.htmll)
 
-Voting for a perfume, it's not required to mark each aspect. Unfortunatelly, it brings an inbalance in ratings (an amount of grades for each column do not have to be correlated with a general amout of votes).
+WHen users vote for a given perfume, it's not required to mark each aspect. Unfortunatelly, it couses an inbalance in ratings (the number of grades for each column does not have to be correlated with the general number of votes).
 
 
-### Most important steps from Data Cleaning and Preparing:
+### Most important steps in Data Cleaning:
 
 1. Small amount of votes
 
-Going through the data exploring, it emerged that distribiuton of 'rating_score' variable is disrupted by products with a
-low amout of votes. The less votes, the more likely the value of 'rating_score' is the integer number. After removing perfumes with less than 20 votes, distribiution improved.
+While exploring the data, it emerged that distribiuton of 'rating_score' variable is disrupted by products with a
+low numer of votes. The less votes, the more likely the value of 'rating_score' is an integer number. After removing perfumes with less than 20 votes, distribiution has improved.
 
 ![](figures/distribution.png)
 
 2. Messy 'accords' column. 
 
-In each cell of this column was a set of accords labels, interrupted by labels such as 'Videos' and 'Pictures' (these two labels are the result of web scrapping). I decided to split all of them into separeted columns, remove worthless labels, create new columns for each of the accords and fill them with 0 (when a perfume doesn't have this accord) and 1 (when a perfume has this accord).
+In each cell of this column there was a set of accords labels, interrupted by labels such as 'Videos' and 'Pictures' (these two labels are the result of web scrapping). I decided to split all of them into separeted columns, remove worthless labels, create new columns for each of the accords and fill them with 0 (when a perfume doesn't have this accord) and 1 (when a perfume has this accord).
 
 3. Longevity and Sillage
 
-Because of an imbalance in ratings, these two features were difficult to understand. I counted weighted aritmetical mean for each of them to get them easier to compare.
+Because of an imbalance in ratings, these two features were difficult to understand. I calculated weighted aritmetical mean for each of them to make them easier to compare.
 
 4. Season
 
-Here also, because of an imbalance in ratings, season's features were difficult to ccompare. I decided to present them as a ratio of an amount of votes for specific season to sum of votes for all seasons.
+Also here, because of an imbalance in ratings, season's features were difficult to compare. I decided to present them as a ratio of the number of votes for specific season to the sum of votes for all seasons.
 
-### Most important steps from Modelling:
+### Most important steps in Modelling:
 
 1. Data scaling
 
 Not every feature from the dataset had the same range of values. I scaled three of them: 'votes', 'longevity' and 'sillage' using MinMaxScaler from Scikit-learn library. 
 
-2. Checking a multicolinearity
+2. Checking multicolinearity
 
-There was a multicolinearity between season's and gender's variables. It could mean that users voting for winter, voted for autumn as well. And voting for summer, voted for spring as well. After removing 'autumn' and 'spring', there are no issues with multicolinearity between this group of variables. I decided to leave variables easier to understand- now seasons is split between hot(summer) and cold(winter).
-The same situation was with gender_man and gender_unisex. After removing gender_unisex, there is no no issues with multicolinearity.
+There was multicolinearity between season's and gender's variables. It could mean that users voting for winter, voted for autumn as well. And those voting for summer, voted for spring as well. After removing 'autumn' and 'spring', there are no issues with multicolinearity between this group of variables. I decided to leave the variables which are more obviously and therefore easier to unterstand. Now, season is split between hot(summer) and cold(winter).
+I had the same issue with gender_man and gender_unisex. After removing gender_man, there is no issue with multicolinearity.
 
 ***
 
-### "TO BE CONTINUATED"
+### "TO BE CONTINUED"
 
 ***
 
