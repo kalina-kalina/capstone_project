@@ -41,6 +41,14 @@ If you are interested with this project and would like to discuss its details, p
 
 ### 1. File descriptions
 
+* 01 - Data cleaning and preparation.ipynb: notebook with data exploration, data cleaning and data preprocessing
+* 02 - Modelling.ipynb: notebook with data modelling
+* Checklist.md: checklist of work on the project
+* REDME.md: readme file
+* perfume.csv: dataset from kaagle.com
+* ready.csv: cleand and ready for modelling dataset
+* start.ipynb: copy of code, will be removed after finishing work
+
 ***
 
 ### 2. Technologies Used
