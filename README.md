@@ -15,8 +15,10 @@ Utilising this kind of prediction, can help to create better communication betwe
 If you are interested with this project and would like to discuss details, please contact me directly on the following:
 * [kalina.zeligowska@gmail.com]()
 
+*** 
 
 ### Executive Summary
+
 
 Start with one or two sentences here that contextualises what your project matters here.
 These two sentences will demonstrate your business understanding. 
