@@ -1,35 +1,57 @@
-# Capstone Template for London Campus  
+# Capstone Project
 
-This repository is a boilerplate template for Flatiron School captstone projects.
-The idea here is that you can take this repository and use it as jumping off point to structure your project so you don't have to re-invent the wheel in terms of the organization of the project.
-If you don't like how this repo is organised, you don't have to stick to it, feel free to change it.
-That said, this format here is a tried and tested format that should work for you! 
+## Perfume Ratings
 
-The way to use this template is to just copy and paste the file structure (don't fork it, you don't want to be just manipulating a template!) to your new initialized repo and fill in things where they should go.
-We also suggest if you need direction to check out the `Project Checklist` markdown file  that is found in this repository as well as the [Capstone Questions](https://docs.google.com/document/d/11Otz1b2oRT3Xn0TK16X1o44hphGP4aBqdpARv0GWXBA/edit?usp=sharing) document for help building and assessing this project. 
-Both this boiler plate and the checklist were built simultaneously, so feel free to use them in tandem. 
+*Worked by Kalina Zeligowska Serej*
 
-> Eventually you will delete everything above this line. This is just here to introduce the boilerplate. We also suggest deleting any other indentations like this. There are more there to get you thinking about the 'point' of the section. 
-# The Title of Your Project Goes Here 
+***
 
-One sentence summary goes here saying what you did.
-A second sentence goes here says why it matters.
-A last sentence links to any productionized web dashboard here.
+The aim of this project was to create a statisctical model making predictions on perfumes ratings.
 
-You can also link to 
-* [Your Email]()
-* [Your Linked In]()
-* [Your Twitter?]()
+I based on the data from fragrantica.com - a popular internet portal for fragrance's lovers. Exploring users preferences and interests alowed me to get a deep understanding of the perfumes rating system.
 
-> We suggest that people follow a "Facebook Page" approach to writing up their README. This means that the most important information is at the top (your name, point of project, contact info) and then as you go down the document you get less and less relevant information. Remember that you are NOT writing a detective story and need to find a way to present as much information as quickly as possible to the person that will be looking at this for 45 seconds tops. Of course others might look for longer, but the UX/UI of your REAMDE should be done with the 'github skimmer' in mind.
+Utilising this kind of prediction, can help to create better communication between manufactures, sellers/dealers (?) and customers, especially those who exist on the online market. (?)
+
+***
+
+If you are interested with this project and would like to discuss its details, please contact me directly on the following:
+* [kalina.zeligowska@gmail.com]()
+
+*** 
 
 ### Executive Summary
 
-Start with one or two sentences here that contextualises what your project matters here.
-These two sentences will demonstrate your business understanding. 
 
-Next, in a second paragraph, write how you were able to make a data science operationalization of the problem.
-For example, you might say that in order to help solve this problem you set out to build a classification ML model in order to automate some process. 
+The dataset, what I worked on, includes the informations scraped off of the fragrantica.com website.
+
+Fragrantica.com is a portal for perfume lovers. Is has three main fillars - an catalogue, an independent magazine and a community - users who comment, disscuse and assess perfumes.
+Each bottle of fragrance JAK JEST OCENIANA
+
+I took the dataset from <a href="https://www.kaggle.com/sagikeren88/fragrances-and-perfumes" target="_blank">kaggle.com</a> as a ready-to-use csv file.
+
+My code is split into separated notebooks to keep is as clear and readable as possible.
+
+(tu są kolejne pliki i główne punkty)
+
+
+1. <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/01%20-%20Data%20cleaning%20and%20preparation.ipynb" target="_blank">Data cleaning and preparing</a>
+
+* the biggest issue - a correct understanding the data and the way it was collected
+* doprowadzić do ujednoliconego typu
+* poradzenie sobie z danymi które zakłócały arkusz - mała ilość głosów
+* zdecydowanie które kolumny są istotne
+* zmienna accords - very messy
+
+2. <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/02%20-%20Modelling.ipynb" target="_blank">Modelling</a>
+
+* ujednolicenie skal zmiennych
+* checking a multicolinearity and deciding which of higly correlated variables remove
+* spliting the data to prepare if for moddeling
+* linear regrassion model
+
+3. "TO BE CONTINUATED"
+
+*** 
 
 Third, you then write what you did on the project that is a bit more technical.
 Here you might say that you took data from [here and make it a link to the original data]() and then ran `a list of models you ran here` in your analysis.
@@ -59,7 +81,3 @@ Write documentation that looks like someone you would want to work with.
 ![Everyone Likes a Pairplot](figures/seaborn-pairplot-3.png)
 
 > Image taken from `seaborn` [documentation](https://seaborn.pydata.org/generated/seaborn.pairplot.html)
-
-**DO NOT PUT THE GOOD BITS OF YOUR PROJECT BURRIED AWAY AT THE BOTTOM OF YOUR README, YOU ARE NOT WRITING A DETECTIVE NOVEL**
-
-
