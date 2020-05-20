@@ -67,7 +67,7 @@ If you are interested in this project and would like to discuss its details, ple
 
 The dataset which I worked on includes information scraped off fragrantica.com.
 
-Fragrantica.com is a portal for perfume lovers. Is consists of three main segments - a catalogue of perfumes, an independent magazine on this subject and a community - users who comment, disscuse and assess perfumes.
+Fragrantica.com is a portal for perfume lovers. Is consists of three main segments - a catalogue of perfumes, an independent magazine on this subject and a community - users who comment, discuss and assess perfumes.
 
 I took the dataset from <a href="https://www.kaggle.com/sagikeren88/fragrances-and-perfumes" target="_blank">kaggle.com</a> as a ready-to-use csv file.
 
