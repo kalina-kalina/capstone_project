@@ -113,7 +113,8 @@ Each bottle of fragrance is described by several parameters (according columns o
 * votes - the number of votes submitted by users
 * perfume's longevity: poor, weak, moderate, long or very long
 * perfume's sillage: soft, moderate, heavy or enormous
-* user's preferences (also split into sex and age categories): love/like/dislike, for winter, spring, summer or autumn, cold or hot day, day or night, have/had/want- more details about accords
+* user's preferences (also split into sex and age categories): love/like/dislike, for winter, spring, summer or autumn, cold or hot day, day or night, I have/had or want it
+* more details about accords
 * target group: women, man or unisex 
 
 ![](figures/from_web.png)
