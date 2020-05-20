@@ -88,6 +88,9 @@ The biggest issues:
 * checking multicolinearity
 * models understanding 
 
+So far, the Ridge model has the highest R^2 value so this can be used in future modelling.
+
+
 3. "TO BE CONTINUED"
 
 *** 
@@ -117,7 +120,7 @@ Each bottle of fragrance is described by several parameters (according columns o
 
 > Images taken from [fragrantica.com](https://www.fragrantica.com/perfume/Chlo-/Love-Story-26227.htmll)
 
-WHen users vote for a given perfume, it's not required to mark each aspect. Unfortunatelly, it couses an inbalance in ratings (the number of grades for each column does not have to be correlated with the general number of votes).
+When users vote for a given perfume, it's not required to mark each aspect. Unfortunatelly, it couses an inbalance in ratings (the number of grades for each column does not have to be correlated with the general number of votes).
 
 
 ### Most important steps in Data Cleaning:
