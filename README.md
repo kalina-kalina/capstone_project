@@ -46,6 +46,7 @@ If you are interested in this project and would like to discuss its details, ple
 * Checklist.md: checklist of work on the project
 * REDME.md: readme file
 * perfume.csv: dataset from kaagle.com
+* presentation-pdf.pdf: short presentation (non-technical)
 * ready.csv: cleand and ready for modelling dataset
 * start.ipynb: copy of code, will be removed after finishing work
 
