@@ -46,6 +46,7 @@ If you are interested in this project and would like to discuss its details, ple
 * Checklist.md: checklist of work on the project
 * REDME.md: readme file
 * perfume.csv: dataset from kaagle.com
+* presentation-pdf.pdf: short presentation (non-technical)
 * ready.csv: cleand and ready for modelling dataset
 * start.ipynb: copy of code, will be removed after finishing work
 
@@ -67,7 +68,7 @@ If you are interested in this project and would like to discuss its details, ple
 
 The dataset which I worked on includes information scraped off fragrantica.com.
 
-Fragrantica.com is a portal for perfume lovers. Is consists of three main segments - a catalogue of perfumes, an independent magazine on this subject and a community - users who comment, disscuse and assess perfumes.
+Fragrantica.com is a portal for perfume lovers. Is consists of three main segments - a catalogue of perfumes, an independent magazine on this subject and a community - users who comment, discuss and assess perfumes.
 
 I took the dataset from <a href="https://www.kaggle.com/sagikeren88/fragrances-and-perfumes" target="_blank">kaggle.com</a> as a ready-to-use csv file.
 
@@ -87,6 +88,9 @@ The biggest issues:
 The biggest issues:
 * checking multicolinearity
 * models understanding 
+
+So far, the Ridge model has the highest R^2 value so this can be used in future modelling.
+
 
 3. "TO BE CONTINUED"
 
@@ -110,14 +114,15 @@ Each bottle of fragrance is described by several parameters (according columns o
 * votes - the number of votes submitted by users
 * perfume's longevity: poor, weak, moderate, long or very long
 * perfume's sillage: soft, moderate, heavy or enormous
-* user's preferences (also split into sex and age categories): love/like/dislike, for winter, spring, summer or autumn, cold or hot day, day or night, have/had/want- more details about accords
+* user's preferences (also split into sex and age categories): love/like/dislike, for winter, spring, summer or autumn, cold or hot day, day or night, I have/had or want it
+* more details about accords
 * target group: women, man or unisex 
 
 ![](figures/from_web.png)
 
 > Images taken from [fragrantica.com](https://www.fragrantica.com/perfume/Chlo-/Love-Story-26227.htmll)
 
-WHen users vote for a given perfume, it's not required to mark each aspect. Unfortunatelly, it couses an inbalance in ratings (the number of grades for each column does not have to be correlated with the general number of votes).
+When users vote for a given perfume, it's not required to mark each aspect. Unfortunatelly, it couses an inbalance in ratings (the number of grades for each column does not have to be correlated with the general number of votes).
 
 
 ### Most important steps in Data Cleaning:
