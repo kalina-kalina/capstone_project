@@ -15,40 +15,38 @@ Utilising this kind of prediction, can help to create better communication betwe
 ***
 
 If you are interested in this project and would like to discuss its details, please contact me directly at:
-* [kalina.zeligowska@gmail.com]()
+* <p><a href="mailto:kalina.zeligowska@gmail.com">kalina.zeligowska@gmail.com</a></p>
 
 *** 
 
 ## Table of Contents
 
-1. <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/README.md#1-file-descriptions" target="_blank">File descriptions</a>
+1. <a href="https://github.com/kalina-kalina/perfumes_ratings#1-file-descriptions" target="_blank">File descriptions</a>
 
-2. <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/README.md#2-technologies-used" target="_blank">Technologies Used</a>
+2. <a href="https://github.com/kalina-kalina/perfumes_ratings#2-technologies-used" target="_blank">Technologies Used</a>
 
-3. <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/README.md#3-executive-summary" target="_blank">Execiutive Summary</a>
+3. <a href="https://github.com/kalina-kalina/perfumes_ratings#3-executive-summary" target="_blank">Execiutive Summary</a>
 
-4. <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/README.md#4-more-information" target="_blank">More Informations</a>
+4. <a href="https://github.com/kalina-kalina/perfumes_ratings#4-more-information" target="_blank">More Informations</a>
 
-* <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/README.md#how-does-the-rating-system-work" target="_blank">How does the Rating System work</a>
+* <a href="https://github.com/kalina-kalina/perfumes_ratings#how-does-the-rating-system-work" target="_blank">How does the Rating System work</a>
 
-* <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/README.md#most-important-steps-from-data-cleaning-and-preparing" target="_blank">Most important steps from Data Cleaning and Preparing</a>
+* <a href="https://github.com/kalina-kalina/perfumes_ratings#most-important-steps-in-cleaning-preparing-and-engineering-notebook" target="_blank">Most important steps in Cleaning, preparing and engineering</a>
 
-* <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/README.md#most-important-steps-from-modelling" target="_blank">Most important steps from Modelling</a>
+* <a href="https://github.com/kalina-kalina/perfumes_ratings#most-important-steps-in-data-splitting-and-modelling-notebook" target="_blank">Most important steps in Data Splitting and Modelling</a>
 
-5. <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/README.md#5-limitations-andd-future-works" target="_blank">Limitations and Future Works</a>
+5. <a href="https://github.com/kalina-kalina/perfumes_ratings#5-possible-improvements-and-future-work" target="_blank">Possible improvements and future work</a>
 
 ***
 
 ### 1. File descriptions
 
-* 01 - Data cleaning and preparation.ipynb: notebook with data exploration, data cleaning and data preprocessing
-* 02 - Modelling.ipynb: notebook with data modelling
-* Checklist.md: checklist of work on the project
-* REDME.md: readme file
-* perfume.csv: dataset from kaagle.com
-* presentation-pdf.pdf: short presentation (non-technical)
-* ready.csv: cleand and ready for modelling dataset
-* start.ipynb: copy of code, will be removed after finishing work
+* <a href="01 - Cleaning, preparing and engineering.ipynb" target="_blank">01 - Cleaning, preparing and engineering.ipynb</a>: notebook with data exploration, data cleaning and data preprocessing
+* <a href="02 - Data Splitting and Modelling.ipynb" target="_blank">02 - Modelling.ipynb</a>: notebook with data modelling
+* <a href="README.md" target="_blank">README.md</a>: readme file
+* <a href="perfume.csv" target="_blank">perfume.csv</a>: dataset from kaagle.com
+* <a href="presentation-pdf.pdf" target="_blank">presentation-pdf.pdf</a>: short presentation (non-technical)
+* <a href="ready.csv" target="_blank">ready.csv</a>: cleand and ready for modelling dataset
 
 ***
 
@@ -76,23 +74,19 @@ My code is split into separated notebooks to keep is as clear and readable as 
 
 The steps of my project are the following:
 
-1. Data cleaning: <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/01%20-%20Data%20cleaning%20and%20preparation.ipynb" target="_blank">notebook</a>
+1. Cleaning, preparing and engineering: <a href="01 - Cleaning, preparing and engineering.ipynb" target="_blank">notebook</a>
 
 The biggest issues:
 * correctly understanding the data and the way it was collected
 * unifying all variables
 * deciding which variables are valuable
+* creating new, valuable features
 
-2. Modelling: <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/02%20-%20Modelling.ipynb" target="_blank">notebook</a>
+2. Data Splitting and Modelling: <a href="02 - Data Splitting and Modelling.ipynb" target="_blank">notebook</a>
 
 The biggest issues:
-* checking multicolinearity
 * models understanding 
-
-So far, the Ridge model has the highest R^2 value so this can be used in future modelling.
-
-
-3. "TO BE CONTINUED"
+* models' measures understanding
 
 *** 
 
@@ -125,7 +119,7 @@ Each bottle of fragrance is described by several parameters (according columns o
 When users vote for a given perfume, it's not required to mark each aspect. Unfortunatelly, it couses an inbalance in ratings (the number of grades for each column does not have to be correlated with the general number of votes).
 
 
-### Most important steps in Data Cleaning:
+### Most important steps in Cleaning, preparing and engineering <a href="01 - Cleaning, preparing and engineering.ipynb" target="_blank">notebook</a>:
 
 1. Small amount of votes
 
@@ -146,7 +140,7 @@ Because of an imbalance in ratings, these two features were difficult to underst
 
 Also here, because of an imbalance in ratings, season's features were difficult to compare. I decided to present them as a ratio of the number of votes for specific season to the sum of votes for all seasons.
 
-### Most important steps in Modelling:
+### Most important steps in Data Splitting and Modelling <a href="02 - Data Splitting and Modelling.ipynb" target="_blank">notebook</a>:
 
 1. Data scaling
 
@@ -157,15 +151,23 @@ Not every feature from the dataset had the same range of values. I scaled three 
 There was multicolinearity between season's and gender's variables. It could mean that users voting for winter, voted for autumn as well. And those voting for summer, voted for spring as well. After removing 'autumn' and 'spring', there are no issues with multicolinearity between this group of variables. I decided to leave the variables which are more obviously and therefore easier to unterstand. Now, season is split between hot(summer) and cold(winter).
 I had the same issue with gender_man and gender_unisex. After removing gender_man, there is no issue with multicolinearity.
 
+3. Models' understanding
+
+From comparing the R-squared values of the test and train data sets it was found that Ridge regression performed best. All values are very, very low - it's not what I expected before I starting my porject.
+Low measures mean that a set of independent variables, in this form, for linear regression models, in not enough to predict dependent variable. The final model explains only about 9% of training set and 8% of validation set. 
+
 ***
 
-### "TO BE CONTINUED"
+### 5. Possible improvements and future work
 
-***
+My data proved to be difficult to understand. My starting idea for building linear regression model wasn't correct.
 
-### 5. Limitations and Future Works
+I assume that working on feature engineering can be good step to extend the project.
 
+My plan is combine some of features into groups to discrease number of independent variables and add some new to improve performance of the model.
 
-
-
-
+Examples of new information:
+* perfume's price
+* common capacity
+* price per 100 ml
+* popularity and worldwide availability.
