@@ -76,7 +76,7 @@ My code is split into separated notebooks to keep is as clear and readable as 
 
 The steps of my project are the following:
 
-1. Data cleaning: <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/01%20-%20Data%20cleaning%20and%20preparation.ipynb" target="_blank">notebook</a>
+1. Data cleaning: <a href="01 - Cleaning, preparing and engineering.ipynb" target="_blank">notebook</a>
 
 The biggest issues:
 * correctly understanding the data and the way it was collected
