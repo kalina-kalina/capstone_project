@@ -15,7 +15,7 @@ Utilising this kind of prediction, can help to create better communication betwe
 ***
 
 If you are interested in this project and would like to discuss its details, please contact me directly at:
-* [kalina.zeligowska@gmail.com]()
+* <p><a href="mailto:kalina.zeligowska@gmail.com">kalina.zeligowska@gmail.com</a></p>
 
 *** 
 
