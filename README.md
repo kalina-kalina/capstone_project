@@ -31,9 +31,9 @@ If you are interested in this project and would like to discuss its details, ple
 
 * <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/README.md#how-does-the-rating-system-work" target="_blank">How does the Rating System work</a>
 
-* <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/README.md#most-important-steps-from-data-cleaning-and-preparing" target="_blank">Most important steps from Data Cleaning and Preparing</a>
+* <a href="https://github.com/kalina-kalina/perfumes_ratings#most-important-steps-in-data-cleaning" target="_blank">Most important steps from Data Cleaning and Preparing</a>
 
-* <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/README.md#most-important-steps-from-modelling" target="_blank">Most important steps from Modelling</a>
+* <a href="https://github.com/kalina-kalina/perfumes_ratings#most-important-steps-in-modelling" target="_blank">Most important steps from Modelling</a>
 
 5. <a href="https://github.com/kalina-kalina/perfumes_ratings#5-limitations-and-future-works" target="_blank">Limitations and Future Works</a>
 
