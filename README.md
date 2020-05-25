@@ -41,8 +41,8 @@ If you are interested in this project and would like to discuss its details, ple
 
 ### 1. File descriptions
 
-* 01 - Data cleaning and preparation.ipynb: notebook with data exploration, data cleaning and data preprocessing
-* 02 - Modelling.ipynb: notebook with data modelling
+* <a href="01 - Cleaning, preparing and engineering.ipynb" target="_blank">01 - Data cleaning and preparation.ipynb</a>: notebook with data exploration, data cleaning and data preprocessing
+* <a href="02 - Data Splitting and Modelling.ipynb" target="_blank">02 - Modelling.ipynb</a>: notebook with data modelling
 * Checklist.md: checklist of work on the project
 * REDME.md: readme file
 * perfume.csv: dataset from kaagle.com
@@ -83,7 +83,7 @@ The biggest issues:
 * unifying all variables
 * deciding which variables are valuable
 
-2. Modelling: <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/02%20-%20Modelling.ipynb" target="_blank">notebook</a>
+2. Modelling: <a href="02 - Data Splitting and Modelling.ipynb" target="_blank">notebook</a>
 
 The biggest issues:
 * checking multicolinearity
