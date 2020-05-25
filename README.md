@@ -155,8 +155,8 @@ I had the same issue with gender_man and gender_unisex. After removing gender_ma
 
 3. Models' understanding
 
-For all of my models I got very, very low measures. It means that a set of independent variables, in this form, for linear regression models, in not enough to predict dependent variable. The final model explains only about 9% of training set and 8% of validation set. 
-
+From comparing the R-squared values of the test and train data sets it was found that Ridge regression performed best. All values are very, very low - it's not what I expected before I starting my porject.
+Low measures mean that a set of independent variables, in this form, for linear regression models, in not enough to predict dependent variable. The final model explains only about 9% of training set and 8% of validation set. 
 
 ***
 
