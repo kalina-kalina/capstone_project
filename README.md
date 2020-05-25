@@ -35,7 +35,7 @@ If you are interested in this project and would like to discuss its details, ple
 
 * <a href="https://github.com/kalina-kalina/perfumes_ratings#most-important-steps-in-modelling" target="_blank">Most important steps from Modelling</a>
 
-5. <a href="https://github.com/kalina-kalina/perfumes_ratings#5-limitations-and-future-works" target="_blank">Limitations and Future Works</a>
+5. <a href="https://github.com/kalina-kalina/perfumes_ratings#5-limitations-and-future-works" target="_blank">Possible improvements and future work</a>
 
 ***
 
@@ -160,7 +160,7 @@ Low measures mean that a set of independent variables, in this form, for linear 
 
 ***
 
-### 5. Limitations and Future Works
+### 5. Possible improvements and future work
 
 My data proved to be difficult to understand. My starting idea for building linear regression model wasn't correct.
 
