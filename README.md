@@ -41,7 +41,7 @@ If you are interested in this project and would like to discuss its details, ple
 
 ### 1. File descriptions
 
-* <a href="01 - Cleaning, preparing and engineering.ipynb" target="_blank">01 - Data cleaning and preparation.ipynb</a>: notebook with data exploration, data cleaning and data preprocessing
+* <a href="01 - Cleaning, preparing and engineering.ipynb" target="_blank">01 - Cleaning, preparing and engineering.ipynb</a>: notebook with data exploration, data cleaning and data preprocessing
 * <a href="02 - Data Splitting and Modelling.ipynb" target="_blank">02 - Modelling.ipynb</a>: notebook with data modelling
 * Checklist.md: checklist of work on the project
 * <a href="README.md" target="_blank">README.md</a>: readme file
