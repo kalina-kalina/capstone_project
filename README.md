@@ -43,12 +43,10 @@ If you are interested in this project and would like to discuss its details, ple
 
 * <a href="01 - Cleaning, preparing and engineering.ipynb" target="_blank">01 - Cleaning, preparing and engineering.ipynb</a>: notebook with data exploration, data cleaning and data preprocessing
 * <a href="02 - Data Splitting and Modelling.ipynb" target="_blank">02 - Modelling.ipynb</a>: notebook with data modelling
-* Checklist.md: checklist of work on the project
 * <a href="README.md" target="_blank">README.md</a>: readme file
 * <a href="perfume.csv" target="_blank">perfume.csv</a>: dataset from kaagle.com
 * <a href="presentation-pdf.pdf" target="_blank">presentation-pdf.pdf</a>: short presentation (non-technical)
 * <a href="ready.csv" target="_blank">ready.csv</a>: cleand and ready for modelling dataset
-* start.ipynb: copy of code, will be removed after finishing work
 
 ***
 
