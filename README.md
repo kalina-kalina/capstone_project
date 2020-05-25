@@ -153,15 +153,23 @@ Not every feature from the dataset had the same range of values. I scaled three 
 There was multicolinearity between season's and gender's variables. It could mean that users voting for winter, voted for autumn as well. And those voting for summer, voted for spring as well. After removing 'autumn' and 'spring', there are no issues with multicolinearity between this group of variables. I decided to leave the variables which are more obviously and therefore easier to unterstand. Now, season is split between hot(summer) and cold(winter).
 I had the same issue with gender_man and gender_unisex. After removing gender_man, there is no issue with multicolinearity.
 
-***
+3. Models' understanding
 
-### "TO BE CONTINUED"
+For all of my models I got very, very low measures. It means that a set of independent variables, in this form, for linear regression models, in not enough to predict dependent variable. The final model explains only about 9% of training set and 8% of validation set. 
+
 
 ***
 
 ### 5. Limitations and Future Works
 
+My data proved to be difficult to understand. My starting idea for building linear regression model wasn't correct.
 
+I assume that working on feature engineering can be good step to extend the project.
 
+My plan is combine some of features into groups to discrease number of independent variables and add some new to improve performance of the model.
 
-
+Examples of new information:
+* perfume's price
+* common capacity
+* price per 100 ml
+* popularity and worldwide availability.
