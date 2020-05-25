@@ -76,23 +76,19 @@ My code is split into separated notebooks to keep is as clear and readable as 
 
 The steps of my project are the following:
 
-1. Data cleaning: <a href="01 - Cleaning, preparing and engineering.ipynb" target="_blank">notebook</a>
+1. Cleaning, preparing and engineering: <a href="01 - Cleaning, preparing and engineering.ipynb" target="_blank">notebook</a>
 
 The biggest issues:
 * correctly understanding the data and the way it was collected
 * unifying all variables
 * deciding which variables are valuable
+* creating new, valuable features
 
-2. Modelling: <a href="02 - Data Splitting and Modelling.ipynb" target="_blank">notebook</a>
+2. Data Splitting and Modelling: <a href="02 - Data Splitting and Modelling.ipynb" target="_blank">notebook</a>
 
 The biggest issues:
-* checking multicolinearity
 * models understanding 
-
-So far, the Ridge model has the highest R^2 value so this can be used in future modelling.
-
-
-3. "TO BE CONTINUED"
+* models' measures understanding
 
 *** 
 
