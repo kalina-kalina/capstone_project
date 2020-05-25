@@ -21,15 +21,15 @@ If you are interested in this project and would like to discuss its details, ple
 
 ## Table of Contents
 
-1. <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/README.md#1-file-descriptions" target="_blank">File descriptions</a>
+1. <a href="https://github.com/kalina-kalina/perfumes_ratings#1-file-descriptions" target="_blank">File descriptions</a>
 
-2. <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/README.md#2-technologies-used" target="_blank">Technologies Used</a>
+2. <a href="https://github.com/kalina-kalina/perfumes_ratings#2-technologies-used" target="_blank">Technologies Used</a>
 
-3. <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/README.md#3-executive-summary" target="_blank">Execiutive Summary</a>
+3. <a href="https://github.com/kalina-kalina/perfumes_ratings#3-executive-summary" target="_blank">Execiutive Summary</a>
 
-4. <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/README.md#4-more-information" target="_blank">More Informations</a>
+4. <a href="https://github.com/kalina-kalina/perfumes_ratings#4-more-information" target="_blank">More Informations</a>
 
-* <a href="https://github.com/kalina-kalina/perfumes_ratings/blob/master/README.md#how-does-the-rating-system-work" target="_blank">How does the Rating System work</a>
+* <a href="https://github.com/kalina-kalina/perfumes_ratings#how-does-the-rating-system-work" target="_blank">How does the Rating System work</a>
 
 * <a href="https://github.com/kalina-kalina/perfumes_ratings#most-important-steps-in-data-cleaning" target="_blank">Most important steps from Data Cleaning and Preparing</a>
 
