@@ -160,13 +160,28 @@ Low measures mean that a set of independent variables, in this form, for linear 
 
 ### 5. Possible improvements and future work
 
-My data proved to be difficult to understand. My starting idea for building linear regression model wasn't correct.
+The final model explains only about 9% of training set and 8% of validation set. It means that this set of independent variables in not enough to predict my dependent variable.
 
-I assume that working on feature engineering can be good step to extend the project.
+### What could be the reason:
 
-My plan is combine some of features into groups to discrease number of independent variables and add some new to improve performance of the model.
+* My mistakes: incorrect data understanding, wrong modeling, not enough feature engineering
+* The nature of the data
+* Smell perception is very individual and it can be difficult to predict 
 
-Examples of new information:
+### My final question is:
+
+Can I win with numbers? With hard data?
+
+My project shows: NO!
+
+But I will check it one more time.
+
+
+## Future work:
+
+Combinig some of features into groups to discrease number of independent variables and add some new, to improve performance of the model.
+
+Examples of new features:
 * perfume's price
 * common capacity
 * price per 100 ml
